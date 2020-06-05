@@ -1,0 +1,23 @@
+-Extensões instaladas
+* Live server
+* Nunjucks Template
+* Launchbase Theme
+
+-Alterações:
+* Terminal Powershell -> Git Bash
+* Adiciona no settings json:
+
+"files.associations": {
+        "*.html": "njk"
+    },
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
+    "vsicons.associations.files": [
+        {"icon": "nunjucks", "extensions": ["njk"], "format": "svg"}
+    ]
+}
+
+DUVIDAS
+Aula 04 - Qual configuração que fez o Localhost não funcionar sem o live server?
+
